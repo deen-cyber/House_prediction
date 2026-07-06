@@ -135,13 +135,8 @@ The application predicts house prices using:
 
 ## 📸 Screenshots
 
-Add screenshots here.
+<img width="1181" height="770" alt="result " src="https://github.com/user-attachments/assets/1ac5dd67-3081-4904-8067-0fbd5fe404eb" />
 
-Example:
-
-```
-<img width="1181" height="770" alt="Screenshot 2026-07-06 at 2 10 15 PM" src="https://github.com/user-attachments/assets/afe490e5-23b7-4c29-a1f6-1809ec05e94e" /><img width="1170" height="781" alt="Screenshot 2026-07-06 at 2 10 46 PM" src="https://github.com/user-attachments/assets/ac7b2f4e-cd6e-4701-9a6a-0fe394b50357" />
-<img width="1512" height="982" alt="Screenshot 2026-07-06 at 2 09 39 PM" src="https://github.com/user-attachments/assets/bd57083f-5588-4f3a-874b-d95f4ebf4bf8" />
 
 
 ```
