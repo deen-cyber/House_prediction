@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🏠 House Price Prediction</h1>
+
+        <!-- Model Accuracy -->
+        <h3>Model R² Score: {{ accuracy }}</h3>
+
+        <form action="/predict" method="POST">
+
+            <label>Average Area Income</label>
+            <input type="number" step="any" name="income" placeholder="Enter Average Area Income" required>
+
+            <label>Average House Age</label>
+            <input type="number" step="any" name="age" placeholder="Enter Average House Age" required>
+
+            <label>Average Number of Rooms</label>
+            <input type="number" step="any" name="rooms" placeholder="Enter Number of Rooms" required>
+
+            <label>Average Number of Bedrooms</label>
+            <input type="number" step="any" name="bedrooms" placeholder="Enter Number of Bedrooms" required>
+
+            <label>Area Population</label>
+            <input type="number" step="any" name="population" placeholder="Enter Area Population" required>
+
+            <button type="submit">Predict Price</button>
+
+        </form>
+
+        {% if prediction_text %}
+            <h2>{{ prediction_text }}</h2>
+        {% endif %}
+
+    </div>
+
+</body>
+
+</html>
