@@ -144,9 +144,6 @@ Example:
 <img width="1512" height="982" alt="Screenshot 2026-07-06 at 2 09 39 PM" src="https://github.com/user-attachments/assets/bd57083f-5588-4f3a-874b-d95f4ebf4bf8" />
 
 
-
-
-screenshots/result.png
 ```
 
 ---
